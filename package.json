@@ -1,0 +1,20 @@
+{
+  "name": "@mock/screen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "build:release": "tsc ; rollup -c ;"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-replace": "^5.0.2",
+    "rollup": "^2.73.0",
+    "rollup-plugin-summary": "^1.4.3",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^5.5.2"
+  }
+}
