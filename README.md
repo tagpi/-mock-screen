@@ -25,17 +25,19 @@ desktop | Not mobile
 
 CDN
 ```html
-
+<script type="module">
+  import { screen } from 'https://cdn.jsdelivr.net/gh/tagpi/-mock-screen@1.0.0/release/screen.js';
+  screen.sync(document.body);
+</script>
 ```
 
 npm 
 ```
-git+https://github.com/tagpi/-mock-screen.git
+npm install git+https://github.com/tagpi/-mock-screen.git
 ```
 
 
 ## Quickstart
-
 
 ```html
 <div class="my-element" hidden-xs>
