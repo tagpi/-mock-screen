@@ -30,7 +30,7 @@ CDN
 
 npm 
 ```
-
+git+https://github.com/tagpi/-mock-screen.git
 ```
 
 

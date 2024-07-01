@@ -1,0 +1,1 @@
+{"version":3,"file":"sync-options.model.js","sourceRoot":"","sources":["../../src/model/sync-options.model.ts"],"names":[],"mappings":"","sourcesContent":["export interface SyncOptions { \n  width?: boolean;\n  orientation?: boolean;\n}\n"]}
